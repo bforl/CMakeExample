@@ -1,7 +1,7 @@
 {
   "name": "vcpkg-cmake-example",
   "version": "1.0.0",
-  "builtin-baseline": "8b04f0a77d0b6b2c8c6d3e7d6d7f0d4d8f3d1234",
+  "builtin-baseline": "301856f5f2824f788a3ffa6332293861cccd23b4",
   "dependencies": [
     "fmt"
   ]
