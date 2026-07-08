@@ -3,6 +3,7 @@
 
 #include "CMakeProject1.h"
 #include <cstdint>
+#include <cstdints>
 
 using namespace std;
 
