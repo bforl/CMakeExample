@@ -2,6 +2,7 @@
 #include <cstdint>
 
 #include <fmt/core.h>
+#include <vector>
 
 using namespace std;
 
