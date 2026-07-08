@@ -9,6 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: lukka/run-vcpkg@v11
+
       - name: Configure
         run: cmake --preset x64-Debug
 

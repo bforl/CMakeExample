@@ -1,0 +1,7 @@
+{
+  "name": "vcpkg-cmake-example",
+  "version": "1.0.0",
+  "dependencies": [
+    "fmt"
+  ]
+}
