@@ -11,12 +11,14 @@
     "boost-circular-buffer",
     "boost-filesystem",
     "boost-process",
+    "boost-ublas",
     "fmt",
     "magic-enum",
     "date",
     "ms-gsl",
     "scnlib",
     "libpng",
-    "cnl"
+    "cnl",
+    "icu"
   ]
 }
