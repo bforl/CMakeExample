@@ -19,6 +19,7 @@
     "scnlib",
     "libpng",
     "cnl",
-    "icu"
+    "icu",
+    "utfcpp"
   ]
 }
