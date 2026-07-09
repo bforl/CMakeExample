@@ -4,12 +4,12 @@
   "builtin-baseline": "301856f5f2824f788a3ffa6332293861cccd23b4",
   "dependencies": [
     "fmt",
-    "boost-graph"
-    "boost-serialization"
-    "boost-iostreams"
-    "boost-interprocess"
-    "boost-circular-buffer"
-    "boost-filesystem"
+    "boost-graph",
+    "boost-serialization",
+    "boost-iostreams",
+    "boost-interprocess",
+    "boost-circular-buffer",
+    "boost-filesystem",
     "boost-process"
   ]
 }
