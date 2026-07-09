@@ -10,6 +10,13 @@
     "boost-interprocess",
     "boost-circular-buffer",
     "boost-filesystem",
-    "boost-process"
+    "boost-process",
+    "fmt",
+    "magic-enum",
+    "date",
+    "ms-gsl",
+    "scnlib",
+    "libpng",
+    "cnl"
   ]
 }
