@@ -8,6 +8,7 @@ jobs:
 
     env:
       VCPKG_BINARY_SOURCES: clear;x-gha,readwrite
+      VCPKG_FEATURE_FLAGS: binarycaching
 
     steps:
       - uses: actions/checkout@v4
@@ -16,11 +17,6 @@ jobs:
   
       - uses: ilammy/msvc-dev-cmd@v1
 
-      - name: Cache vcpkg installed folder
-        uses: actions/cache@v4
-        with:
-          path: out/build/**/vcpkg_installed
-          key: vcpkg-installed-${{ runner.os }}-${{ hashFiles('vcpkg.json', 'CMakePresets.json') }}
 
       - name: Configure
         run: cmake --preset x64-Debug
