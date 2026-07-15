@@ -6,9 +6,6 @@ jobs:
   build:
     runs-on: windows-latest
 
-    env:
-      VCPKG_BINARY_SOURCES: clear;x-gha,readwrite
-
     steps:
       - uses: actions/checkout@v4
 
