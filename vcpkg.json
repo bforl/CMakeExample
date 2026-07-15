@@ -6,6 +6,6 @@
     "boost-serialization",
     "fmt",
     "magic-enum",
-    "date",
+    "date"
   ]
 }
