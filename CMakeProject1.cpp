@@ -13,7 +13,7 @@ int main()
 	fmt::print("Hello from vcpkg!\n");
 	fmt::print("Vector contains {} elements.\n", values.size());
 
-	cout << "Hello CMake." << endl;
+	cout << "Hello CMake. tests" << endl;
 	
 	return 0;
 }
